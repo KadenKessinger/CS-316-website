@@ -1,0 +1,11 @@
+CSS external stuff 
+<div> multi-line section
+    <div><p>rndm0</p></div>
+
+<span> multi-line 
+   <p>rndm0 <span id="sec1">rndm1</span> <span class="blue_text">rndm2</span>
+   <span>rndm3</span> <span>rndm4</span></p>
+
+
+Css internal grammar
+    Stlye rules: collections of attribute changes for a given 
