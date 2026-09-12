@@ -1,4 +1,24 @@
 body{
     font-size:28px;
     font-family: 'Courier New', monospace;
+    text-align: center; /*other optoins include: left, right, justify*/
+    font-variant: normal;/*other options include: small-caps*/
+
+    background-image: url("flower.jpg");
+    background-repeat: round;
+}
+
+p{
+    text-indent: 150px;
+    text-shadow: 0px 0px 20px blue;
+    color:rgb(51, 54, 150);
+    background-color: aqua;
+}
+
+h1{
+    /*text-decoration: overline;/*other options include: line-through, underline, and none*/
+    text-decoration-line: overline overline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 20px;
+    text-decoration-style: wavy;/*other options include: solid, dotted, dashed, double*/
 }

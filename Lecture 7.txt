@@ -1,3 +1,13 @@
+Earlier stuff:
+CS 316
+HTML Media TAGs
+
+href - hyperlink reference
+	used like this: <a href="https://www.link.com">Go to link</a>
+
+
+
+
 CSS external stuff 
 <div> multi-line section
     <div><p>rndm0</p></div>
