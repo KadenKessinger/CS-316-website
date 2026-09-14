@@ -1,0 +1,29 @@
+body {
+    font-size:28px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+p{
+    border: dotted;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    border: dotted;
+}
+
+img{
+    width: 250px;
+    border: solid;
+}
+
+#animals{
+    display: flex;
+    justify-content: center;/*look at slides for more examples*/
+    flex-wrap:wrap-reverse;
+    flex-basis: 500px;
+}
