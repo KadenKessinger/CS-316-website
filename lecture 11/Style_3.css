@@ -5,3 +5,27 @@ body {
 h1{
     text-align: center;
 }
+li::after{
+    content:".";
+}
+
+h3::before{
+    content:"Section: ";
+}
+
+h3::first-letter{
+    font-size:150%;
+}
+
+ol>li::selection{ /*or just ol::selection (works on chrome, not firefox)*/
+    color:red;
+}
+
+p::first-line{
+    text-transform: uppercase;
+}
+
+h3::selection{
+    color: red;
+    background-color: blue;
+}

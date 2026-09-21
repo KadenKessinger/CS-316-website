@@ -1,13 +1,25 @@
+:root{
+    --background-color: #353663;
+    --text-color: #E7E8C3;
+}
+
 body {
     font-size:28px;
 }
 
 p{
     border: groove;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+
 }
 
 h1{
     text-align: center;
+    --text-color: #C3E8D1;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 img{

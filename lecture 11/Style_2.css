@@ -7,6 +7,11 @@ p{
     border: groove;
 }
 
+p:active{
+    background-color: black;
+    color: white;
+}
+
 h1{
     text-align: center;
 }
@@ -15,4 +20,26 @@ button{
     font-size:28px;
     text-align: center;
     left:50%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: cornflowerblue;
+    color: crimson;
+}
+
+a{
+    font-style: italic;
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color: crimson;
 }
