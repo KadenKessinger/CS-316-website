@@ -1,0 +1,33 @@
+body {
+    font-size:28px;
+}
+
+p{
+    border: dotted;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    border: solid;
+}
+
+#pictures {           
+   width: 300px;
+   background: mediumseagreen;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 15px 15px;
+}
+
+/*We will explain this in detail later
+For now, we are using it to see the grid size*/
+#pictures > span {
+   background: lightgreen;
+   border:solid;
+}

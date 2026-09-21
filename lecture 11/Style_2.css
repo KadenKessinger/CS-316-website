@@ -1,0 +1,18 @@
+body {
+    font-size:28px;
+    text-align: center;
+}
+
+p{
+    border: groove;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    font-size:28px;
+    text-align: center;
+    left:50%;
+}

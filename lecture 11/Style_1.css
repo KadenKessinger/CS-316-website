@@ -1,0 +1,15 @@
+body {
+    font-size:28px;
+}
+
+p{
+    border: groove;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 250px;
+}
