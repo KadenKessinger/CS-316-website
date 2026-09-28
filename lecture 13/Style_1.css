@@ -1,0 +1,32 @@
+body{
+    font-size:28px;
+    padding: 0px 20px 0px 20px; /*top right bottom left*/
+}
+
+h1{
+    text-align: center;
+    border: 30px solid;
+    border-image-source: url(border.png);
+    border-image-slice:30;
+    border-image-repeat:repeat;
+}
+
+table {
+    border: 3px solid gray;
+    border-spacing: 0;
+    border-radius: 20px;
+
+}
+
+th, td {
+    border: 1px solid gray;
+}
+
+#centering{
+    display:flex;
+    justify-content:space-between;
+}
+
+img{
+    box-shadow: 10px -10px 15px 20px blue;
+}

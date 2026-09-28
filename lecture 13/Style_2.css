@@ -1,0 +1,71 @@
+body{
+    font-size:28px;
+    padding: 0px 20px 0px 20px; /*top right bottom left*/
+}
+
+h1, h5{
+    text-align: center;
+}
+
+h5{
+    margin: 0px 0px 0px 0px;
+}
+
+#centering{
+    display: flex;
+    justify-content: center;
+}
+
+#left > div, #middle > div, #right > div{
+    width:250px;
+    height:250px;
+    border:solid;
+}
+
+#left div[class="top"]{
+    background: linear-gradient(green, yellow);
+}
+
+#left div[class="middle-top"]{
+    background: linear-gradient(to bottom right, black, red);
+}
+
+#left div[class="middle-bottom"]{
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#left div[class="bottom"]{
+    background: repeating-linear-gradient(to right, blue, yellow, green 20%);
+}
+
+#middle div[class="top"]{
+    background: radial-gradient(red, blue);
+}
+
+#middle div[class="middle-top"]{
+    background: radial-gradient(red, blue 50%);
+}
+
+#middle div[class="middle-bottom"]{
+    background: radial-gradient(red 20%, blue 50%);
+}
+
+#middle div[class="bottom"]{
+    background: radial-gradient(circle, red 20%, blue 50%, green);/*others: ellipse*/
+}
+
+#right div[class="top"]{
+    background: repeating-radial-gradient(pink, yellow, lightblue 15%);
+}
+
+#right div[class="middle-top"]{
+    background: radial-gradient(closest-side at 20% 30%, red, blue, yellow);
+}
+
+#right div[class="middle-bottom"]{
+    background: radial-gradient(farthest-corner at 20% 30%, )
+}
+
+#right div[class="bottom"]{
+    background: radial-gradient()
+}
